@@ -1,0 +1,10 @@
+name: mxsAlchemist
+version: 1.0.0
+main: ru.mxsserver.mxsalchemist.mxsAlchemist
+api-version: 1.16
+depend: [Vault]
+commands:
+  mxsalchemist:
+    description: Opens the mxsAlchemist menu
+    usage: /<command>
+    aliases: [alchemist]
